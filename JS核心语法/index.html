@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS核心语法</title>
+    <style>
+      .change {
+        width: 100px;
+        line-height: 100px;
+        background-color: tomato;
+        color: white;
+        text-align: center;
+        transition: all 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="box">默认文本</div>
+  </body>
+  <script>
+    // 可以直接获取到id为box的容器节点
+    box.onclick = function () {
+      this.className = "change";
+      this.innerText = "点击了";
+    };
+  </script>
+  <!-- 通过引入src的方式，可以引入外部的js文件，让我们更好的进行HTML和JS代码的分离 -->
+  <script src="./script.js"></script>
+</html>
