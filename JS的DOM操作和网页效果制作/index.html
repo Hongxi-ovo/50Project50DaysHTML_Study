@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh_cn">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS的DOM操作</title>
+  </head>
+  <body>
+    <div id="block">默认内容</div>
+    <div id="block1">默认内容1</div>
+    <div class="container"></div>
+  </body>
+  <script>
+    let block = document.getElementById("block");
+    console.log(block);
+    block.innerText = "修改后的内容";
+
+    let block1 = document.getElementById("block1");
+
+    // 获取元素节点的outerHTML 如果需要操作整个元素（包括标签），使用 outerHTML。
+    console.log(block1.outerHTML);
+    console.log(block1);
+    // 获取元素节点的innerHTML 如果仅需要操作元素的内容（忽略标签），使用 innerHTML。
+    console.log(block1.innerHTML);
+
+    block1.textContent = "修改后的内容1";
+    console.log("--------------------------");
+
+    block1.innerHTML = "<h2>修改后的内容2</h2>";
+    // 获取元素节点的outerHTML 如果需要操作整个元素（包括标签），使用 outerHTML。 打印出来的内容是纯文本
+    console.log(block1.outerHTML);
+    console.log(block1);
+    // 获取元素节点的innerHTML 如果仅需要操作元素的内容（忽略标签），使用 innerHTML。
+    console.log(block1.innerHTML);
+
+    let pClass = document.querySelector(".container");
+    console.log(pClass);
+    let textArr = [
+      "JavaScript",
+      "Java",
+      "C++",
+      "C#",
+      "Python",
+      "PHP",
+      "Ruby",
+      "Go",
+    ];
+    for (let i = 0; i < textArr.length; i++) {
+      //   pClass.innerHTML = `<h1>默认内容</h1>`;
+      console.log(pClass.innerHTML);
+      pClass.innerHTML += `<p>${textArr[i]}</p>`;
+    }
+  </script>
+</html>
