@@ -1,0 +1,55 @@
+body{
+    background-color: aliceblue;
+    margin: 0;
+    text-align: center;
+    margin-top: 30vh;
+}
+.num{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+    margin:auto;
+    text-align: center;
+}
+.num>div{
+    height: 4px;
+    width: 60px;
+    background-color: rgb(224,224,224);
+    transition: all 0.3s ease-in;
+}
+.projress{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: rgb(153,153,153);
+    border: 3px solid rgb(224,224,224);
+    transition: all 0.3s ease-in;
+}
+.proSelect{
+    border: 3px solid rgb(52,152,219) !important;
+}
+.lineSelect{
+    background-color: rgb(52,152,219) !important;
+}
+
+button{
+    background-color: rgb(52,152,219);
+    border: none;
+    width: 100px;
+    height: 35px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 40px;
+    font-size: 16px;
+    transition: all 0.3s ease-in;
+}
+button:hover{
+    background-color: rgb(52,152,219,0.8);
+    cursor: pointer;
+}
+.none{
+    background-color: rgb(224,224,224)!important;
+    cursor:no-drop!important;
+}
