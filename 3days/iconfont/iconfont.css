@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4767612 */
+  src: url('iconfont.woff2?t=1733145691085') format('woff2'),
+       url('iconfont.woff?t=1733145691085') format('woff'),
+       url('iconfont.ttf?t=1733145691085') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-mendian:before {
+  content: "\e622";
+}
+
+.icon-runtongyiyaoyihuifu_shezhi:before {
+  content: "\e634";
+}
+
+.icon-runtongyiyaoyihuifu_yewuyuan:before {
+  content: "\e636";
+}
+
+.icon-runtongyiyaoyihuifu_caidan-51:before {
+  content: "\e628";
+}
+
+.icon-runtongyiyaoyihuifu_chacha-29:before {
+  content: "\e629";
+}
+

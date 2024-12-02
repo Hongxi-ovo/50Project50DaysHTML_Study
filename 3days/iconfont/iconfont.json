@@ -1,0 +1,44 @@
+{
+  "id": "4767612",
+  "name": "3day",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10333696",
+      "name": "门店",
+      "font_class": "mendian",
+      "unicode": "e622",
+      "unicode_decimal": 58914
+    },
+    {
+      "icon_id": "14871870",
+      "name": "润桐医药 [已恢复]_设置",
+      "font_class": "runtongyiyaoyihuifu_shezhi",
+      "unicode": "e634",
+      "unicode_decimal": 58932
+    },
+    {
+      "icon_id": "14871885",
+      "name": "润桐医药 [已恢复]_业务员",
+      "font_class": "runtongyiyaoyihuifu_yewuyuan",
+      "unicode": "e636",
+      "unicode_decimal": 58934
+    },
+    {
+      "icon_id": "14871832",
+      "name": "润桐医药 [已恢复]_菜单-51",
+      "font_class": "runtongyiyaoyihuifu_caidan-51",
+      "unicode": "e628",
+      "unicode_decimal": 58920
+    },
+    {
+      "icon_id": "14871835",
+      "name": "润桐医药 [已恢复]_叉叉-29",
+      "font_class": "runtongyiyaoyihuifu_chacha-29",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    }
+  ]
+}
