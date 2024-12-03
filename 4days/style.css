@@ -1,0 +1,47 @@
+body{
+    background-color: antiquewhite;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.iconfont{
+    /* position: fixed; */
+    font-size: 30px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    transition:all 0.5s;
+    /* padding: 5px; */
+}
+.iconSelect{
+    border-radius: 0px 10px 10px 0px;
+    border-left: 1px solid #000000;
+}
+
+.inputName{
+    border: none;
+    width: 0px;
+    height: 0px;
+    border-radius: 0px;
+    padding: 0;
+    /* position: fixed; */
+    z-index: -1;
+    transition:width 0.5s , height 0.2s;
+}
+.inputShow{
+    width: 300px;
+    height: 40px;
+    border-radius: 10px 0px 0px 10px;
+
+}
